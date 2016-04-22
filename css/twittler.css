@@ -1,0 +1,13 @@
+.img-portfolio {
+  height: 80px;
+  width: auto;
+}
+
+.navbar {
+    background: linear-gradient(to bottom right, #161658, #A7BACA);
+}
+
+.tweet {
+  background-color: white;
+  color: black;
+}

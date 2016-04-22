@@ -7,10 +7,10 @@
 window.streams = {};
 streams.home = [];
 streams.users = {};
-streams.users.shawndrost = [];
-streams.users.sharksforcheap = [];
-streams.users.mracus = [];
-streams.users.douglascalhoun = [];
+streams.users.red = [];
+streams.users.mater = [];
+streams.users.guido = [];
+streams.users.filmore = [];
 window.users = Object.keys(streams.users);
 
 // utility function for adding tweets to our data structures
@@ -59,11 +59,11 @@ scheduleNextTweet();
 // utility function for letting students add "write a tweet" functionality
 // (note: not used by the rest of this file.)
 var writeTweet = function(message){
-  if(!visitor){
+  if(!mac){
     throw new Error('set the global visitor property!');
   }
   var tweet = {};
-  tweet.user = visitor;
+  tweet.user = mac;
   tweet.message = message;
   tweet.created_at = new Date();
   addTweet(tweet);
