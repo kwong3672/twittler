@@ -3,6 +3,16 @@
   width: auto;
 }
 
+.img-portfolio-large {
+  height: 160px;
+  width: auto;
+}
+
+.img-small {
+  height: 50px;
+  width: auto;
+}
+
 .navbar {
     background: linear-gradient(to bottom right, #161658, #A7BACA);
 }
@@ -10,4 +20,23 @@
 .tweet {
   background-color: white;
   color: black;
+  padding-bottom: 10px;
+  border-bottom: thick solid black;
+}
+
+.changebox1 {
+
+}
+
+.changebox2 {
+  margin: 0px;
+}
+
+header {
+  background-color: white;
+  color: black;
+}
+
+.container {
+  padding-bottom: 50px;
 }

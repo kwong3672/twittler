@@ -5,8 +5,9 @@
 
 // set up data structures
 window.streams = {};
-streams.home = [];
 streams.users = {};
+//streams.all = [];
+streams.all = [];
 streams.users.red = [];
 streams.users.mater = [];
 streams.users.guido = [];
@@ -17,7 +18,7 @@ window.users = Object.keys(streams.users);
 var addTweet = function(newTweet){
   var username = newTweet.user;
   streams.users[username].push(newTweet);
-  streams.home.push(newTweet);
+  streams.all.push(newTweet);
 };
 
 // utility function
